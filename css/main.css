@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 1- Header Section----------
+------------------- */
+header nav{
+    background-color: #ffffff; 
+}
+
+header nav .logo_container .logo{
+    width: 80px;
+    max-width: 81px;
+    height: 92px;
+    max-height: 93px; 
+}
+
+header nav .logo_container a.navbar-brand{
+    color: #000000; 
+    font-weight: 700;
+    font-style: italic;
+}
+
+header nav .nav-item a.nav-link:link {
+    color: #222222; 
+    font-weight: 500;
+}
+
+header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
+    color: #003297; 
+}
+
+
+  @media screen and (max-width: 992px) {
+    header nav .logo_container a.navbar-brand {
+    font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width: 392px) and (max-width: 576px)  {
+    header nav .logo_container .logo{
+        width: 60px;
+        max-width: 61px;
+        height: 72px;
+        max-height: 73px; 
+    }
+    header nav .logo_container a.navbar-brand {
+      font-size: 16px;
+    }
+  }
+
+
+  @media screen and (max-width: 392px) {
+    header nav .logo_container .logo{
+        width: 45px;
+        max-width: 46px;
+        height: 57px;
+        max-height: 58px; 
+    }
+    header nav .logo_container a.navbar-brand {
+      font-size: 11px;
+    }
+  }
+
+  /* 2- Footer  Section----------
+------------------- */
+
+.footer_section footer{
+    background-color: #222222;
+    padding: 80px 10px;  
+}
+
+.footer_section footer .quick_links_container{
+    min-height: 60px; 
+}
+
+.footer_section footer .quick_links{
+    color: #ffffff;
+}
+.footer_section footer .quick_links a.nav-link:link {
+    color: #ffffff; 
+    font-weight: 500;
+}
+
+.footer_section footer .quick_links a.nav-link:active,.footer_section footer .quick_links a.nav-link:focus {
+    color: #003297; 
+    /* color: #053087;  */
+}
+
+
+@media screen and (max-width: 576px) {
+    .footer_section footer{
+        padding: 60px 10px;  
+    }
+  }
+
+  @media screen and (max-width: 392px) {
+    .footer_section footer .img_box{
+        width: 50px;
+        max-width: 51px;
+        height: 62px;
+        max-height: 63px; 
+    }
+
+    .footer_section footer .quick_links{
+        font-size: 14px;
+    }
+    .footer_section footer .quick_links_container p{
+        font-size: 14px;
+    }
+
+    .footer_section footer .socail_icon_img_box img{
+        width: 150px;
+    }
+  }
+
+
+/* 2- Contact Form Section----------
+------------------- */
+
+.contact_form_section .contact_form_heading_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.contact_form_section .contact_form_heading_container h4{
+    font-size: 16px;
+}
+
+.contact_form_section .contact_form_content_container .custom_label{
+    margin-left: 1rem;
+    color: #222222;
+    font-size: 18px;
+}
+.contact_form_section .contact_form_content_container .custom_input{
+    border-radius: 22px;
+    border-color: #a1a1a1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact_form_section .contact_form_content_container .custom_input::placeholder{
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.contact_form_section .contact_form_content_container .custom_btn{
+    min-width: 200px;
+    border-radius: 32px;
+    background-color: #003297;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact_form_section .contact_form_heading_container h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .contact_form_section .contact_form_heading_container h4{
+        font-size: 14px;
+    }
+    .contact_form_section .contact_form_content_container .custom_label{
+        font-size: 14px;
+    }
+    .contact_form_section .contact_form_content_container .custom_input{
+        border-radius: 22px;
+        border-color: #a1a1a1;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .contact_form_section .contact_form_content_container .custom_btn{
+        min-width: 160px;
+        border-radius: 32px;
+        background-color: #003297;
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+  }
+
+
+/* 2- Header FeaturedBox----------
+------------------- */
+/* .featured_box{
+    background: url(../images/banner1.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 136px 0;
+}
+
+
+.featured_box .featured_text h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+
+.featured_box .featured_text p{
+    font-size: 16px;
+    color: #8c9cae; 
+    margin: 0;
+    padding-bottom: 30px;
+
+}
+
+.featured_box .featured_btn a{
+    color: #fff;
+    background-color: #00bc9c;
+    font-size: 16px;
+    margin: 0;
+    padding: 12px 25px;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+} */
+
