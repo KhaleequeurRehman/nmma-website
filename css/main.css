@@ -30,7 +30,7 @@ header nav .nav-item a.nav-link:link {
 }
 
 header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
-    color: #003297; 
+    color: #003297 !important; 
 }
 
 
@@ -181,6 +181,164 @@ header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
 
   }
 
+
+
+
+/* 2- Events Section----------
+------------------- */
+.special_events_heading_wrapper h1 {
+        font-size: 60px;
+        font-weight: 600;
+        color: #000077;
+}
+/* .special_events_curve_heading_wrapper {
+    position: relative;
+    width: 400px;
+    border-radius: 50%;
+    transform: rotate(-44deg);
+    }
+
+    h1 span {
+    font: 60px Monaco, MonoSpace;
+    font-weight: 600;
+    color: #000077;
+    height: 300px;
+    position: absolute;
+    width: 20px;
+    left: 0;
+    top: 0;
+    transform-origin: bottom center;
+    }
+
+    .char1 {
+    transform: rotate(4deg);
+    }
+
+    .char2 {
+    transform: rotate(11deg);
+    }
+
+    .char3 {
+    transform: rotate(18deg);
+    }
+
+    .char4 {
+    transform: rotate(24deg);
+    }
+
+    .char5 {
+    transform: rotate(30deg);
+    }
+
+    .char6 {
+    transform: rotate(37deg);
+    }
+
+    .char7 {
+    transform: rotate(43deg);
+    }
+
+    .char8 {
+    transform: rotate(50deg);
+    }
+
+    .char9 {
+    transform: rotate(54deg);
+    }
+
+    .char10 {
+    transform: rotate(60deg);
+    }
+
+    .char11 {
+    transform: rotate(66deg);
+    }
+
+    .char12 {
+    transform: rotate(73deg);
+    }
+
+    .char13 {
+    transform: rotate(79deg);
+    }
+
+    .char14 {
+    transform: rotate(85deg);
+    } */
+
+    .special_events_container{
+        border: 2px solid #000000;
+        border-radius: 12px;
+        margin: 10px 0;
+        
+    } 
+    .special_events_container .year_heading_wrapper{
+        background-color: #000000;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        text-align: center;
+    }
+    .special_events_container .year_heading_wrapper .year_heading{
+        font-size: 47px;
+        color: #003297;
+        padding: 3px 0;
+    }
+    .special_events_container .event_detail_container .event_detail_wrapper:nth-child(even) {
+        background: #f1f1f1;
+    }
+    .special_events_container .event_detail_container .event_detail_wrapper:last-child {
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        margin-bottom: 0;
+    }
+    .special_events_container .event_detail_wrapper{
+        text-align: center;
+        padding: 10px 0px;
+        margin: 10px 0px; 
+    }
+    .special_events_container .event_detail_wrapper .month_heading{
+        font-size: 24px;
+        color: #003297;
+        margin: 10px 0px;
+    }
+    .special_events_container .event_detail_wrapper .description{
+        font-size: 18px;
+        color: #222222;
+        margin: 10px 0px;
+        margin-bottom: 0;
+        overflow-wrap: break-word;
+    }
+    .special_events_container .event_detail_wrapper .sub_description{
+        color: #003297;
+        margin: 0;
+        margin-bottom: 10px;
+        overflow-wrap: break-word;
+    }
+
+
+
+
+
+
+    /* 2- utlities classes----------
+------------------- */
+
+    .custom_btn{
+        min-width: 160px;
+        border-radius: 32px;
+        background-color: #003297;
+        color: #ffffff;
+        font-size: 16px;
+        margin: 3px 0px;
+    }
+
+    .custom_btn:hover,.custom_btn:active,.custom_btn:focus{
+        background-color: #003297 !important;
+    }
+
+    .mt300{
+        margin-top: 300px;
+    }
 
 /* 2- Header FeaturedBox----------
 ------------------- */
