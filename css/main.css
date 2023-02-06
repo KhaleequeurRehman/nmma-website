@@ -65,6 +65,14 @@ header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
     }
   }
 
+
+  @media screen and (max-width: 335px) {
+    header nav .logo_container a.navbar-brand {
+      font-size: 11px;
+    }
+  }
+
+
   /* 2- Footer  Section----------
 ------------------- */
 
@@ -314,6 +322,75 @@ header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
         margin-bottom: 10px;
         overflow-wrap: break-word;
     }
+
+
+    
+
+    /* 2- About Section----------
+------------------- */
+
+.about_section .about_heading_container h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.about_section .about_heading_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.about_section .about_heading_container h4{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.about_section .icon_box{
+    width: 37px;
+    height: 52px;
+}
+.about_section .icon_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_section .about_detail_card .card-body h5{
+    font-size: 18px;
+    color: #003297;
+}
+
+.about_section .about_detail_card .card-body p{
+    font-size: 16px;
+    color: #222222;
+    line-height: 1.4
+}
+
+@media screen and (max-width: 768px) {
+    .about_section .about_heading_container h3{
+        font-size: 20px;
+    }
+    .about_section .about_heading_container h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .about_section .about_heading_container h4{
+        font-size: 14px;
+    }
+  }
+
+
+  /* @media screen and (max-width: 392px) { */
+  @media screen and (max-width: 576px) {
+    .about_section .about_heading_container h3{
+        font-size: 18px;
+    }
+    .about_section .about_heading_container h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .about_section .about_heading_container h4{
+        font-size: 14px;
+    }
+  }
+
 
 
 
