@@ -196,9 +196,16 @@ header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
 ------------------- */
 .special_events_heading_wrapper h1 {
         font-size: 60px;
-        font-weight: 600;
+        font-weight: 700;
         color: #000077;
 }
+
+h1.upcomming_events_heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000077;
+}
+
 /* .special_events_curve_heading_wrapper {
     position: relative;
     width: 400px;
@@ -411,6 +418,19 @@ header nav .nav-item a.nav-link:active,header nav .nav-item a.nav-link:focus {
 
     .custom_btn:hover,.custom_btn:active,.custom_btn:focus{
         background-color: #003297 !important;
+    }
+
+    .custom_btn2{
+        min-width: 160px;
+        border-radius: 32px;
+        background-color: #000077;
+        color: #ffffff;
+        font-size: 16px;
+        margin: 3px 0px;
+    }
+
+    .custom_btn2:hover,.custom_btn2:active,.custom_btn2:focus{
+        background-color: #000077 !important;
     }
 
     .mt300{
