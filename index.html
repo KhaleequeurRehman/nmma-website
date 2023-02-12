@@ -27,15 +27,13 @@
         <!-- main menu start -->         
         <div class="container-fluid header px-0"> 
               <nav class="navbar navbar-expand-md">
-                <!-- <div class="container-fluid mx-md-4"> -->
                 <div class="container-fluid mx-lg-4">
-                    <!-- <a class="navbar-brand" href="#">National Martial Arts Alliance</a> -->
                     <div class="logo_container d-flex align-items-center">
+                        <a class="navbar-brand m-0" href="index.html">
                         <div class="logo">
                             <img src="assets/images/logo.png" class="img-fluid" alt="logo-image">
-                            <!-- <img src="assets/images/logo.png" class="img-fluid mx-2" alt="logo-image"> -->
-                        </div>
-                        <a class="navbar-brand ms-2" href="#">National Martial Arts Alliance</a>
+                        </div></a>
+                        <a class="navbar-brand ms-2" href="javascript:void(0);">National Martial Arts Alliance</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -43,20 +41,26 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ms-auto mb-0">
                         <li class="nav-item me-md-2">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item me-md-2">
                             <a class="nav-link" href="pages/about.html">About</a>
                         </li>
                         <li class="nav-item me-md-2">
-                            <a class="nav-link" href="pages/upcommingEvents.html">Standings</a>
+                            <a class="nav-link" href="#">Standings</a>
                         </li>
-                        <li class="nav-item me-md-2">
-                            <a class="nav-link" href="pages/specialEvents.html">Events</a>
-                        </li>
-                        <!-- <li class="nav-item me-md-2"> -->
+                        <li class="nav-item me-md-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Events
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="pages/specialEvents.html">Special Events</a></li>
+                              <li><a class="dropdown-item" href="pages/nationalEvents.html">National Events</a></li>
+                              <li><a class="dropdown-item" href="pages/upcommingEvents.html">Upcomming Events</a></li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="pages/contact.html">Contact</a>
                         </li>
                         </ul>
                     </div>
@@ -68,52 +72,117 @@
     <!-- header end -->
 
 
-    <!-- contact_page_banner start -->  
-    <section class="contact_page_banner_section w-100">
-        <div class="img_box w-100">
-            <img src="assets/images/contact_page_banner.jpg" class="w-100 img-fluid" alt="Responsive image">
+    <!-- homepage_page_banner start -->  
+    <section class="homepage_page_banner_section w-100">
+        <div class="img_box w-100" >
+            <img src="assets/images/hompage_banner2.png" class="w-100 img-fluid" alt="Responsive image">
         </div>
+        <!-- <button type="submit" class="btn btn-primary custom_img_btn">Learn Now</button> -->
     </section>
-    <!-- contact_page_banner end -->  
+    <!-- homepage_page_banner end -->  
     
-    <!-- Contact Form start -->  
-        <section class="contact_form_section py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-8 mx-auto">
-                        <div class="contact_form_heading_container text-center">
-                            <h1 class="heading">Contact Form</h1>
-                            <h4 class="sub_heading">Send us a message and we'll get back to you as soon as we can!</h4>
-                        </div>
-                        <div class="contact_form_content_container mt-5 mb-2">
-                            <form action="#">
-                                <div class="mb-3">
-                                    <label for="name" class="form-label custom_label">Name:</label>
-                                    <input type="text" class="form-control custom_input" id="name" placeholder="Enter your name">
+    <!-- team_section start -->  
+    <section class="team_section_section w-100">
+        <div class="container-fluid p-0">
+            <div class="row p-0 m-0">
+                <div class="col-12 mt-4 mx-auto pt-sm-2 pt-sm-4 pb-2">
+                    <h3 class="search_text_heading text-center">Searching?</h3>
+                    <p class="search_text_heading text-center">Look no further. You belong here in our growing Martial Arts Fa</p>
+                    <h1 class="search_text_heading text-center">National Martial Arts Alliance</h1>
+                </div>
+            </div>
+            <div class="row p-0 m-0">
+                <div class="w-100" >
+                    <img src="assets/images/hompage_team.png" class="w-100 img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <div class="row p-0 m-0 detail_section">
+                <div class="col-12 p-0 m-0 my-4 d-flex justify-content-center align-items-center">
+                    <div class="container-fluid p-0 ">
+                        <div class="row p-0 m-0">
+                            <div class="col-12 col-sm-4 p-0 m-0 my-4 text-center">
+                                <div class="w-75 mx-auto text-center">
+                                    <img src="assets/images/tournament_schedule_card_img.png" class="w-100 img-fluid" alt="Responsive image">
                                 </div>
-                                <div class="mb-3">
-                                    <label for="phoneNumber" class="form-label custom_label">Phone Number:</label>
-                                    <input type="number" class="form-control custom_input" id="phoneNumber" placeholder="Best number to reach you">
+                            </div>
+                            <div class="col-12 col-sm-4 p-0 m-0 my-4 text-center">
+                                <div class="w-75 mx-auto text-center">
+                                    <img src="assets/images/special_event_card_img.png" class="w-100 img-fluid" alt="Responsive image">
                                 </div>
-                                <div class="mb-3">
-                                    <label for="emailAddress" class="form-label custom_label">Email Address:</label>
-                                    <input type="email" class="form-control custom_input" id="emailAddress" placeholder="Enter your email address">
+                            </div>
+                            <div class="col-12 col-sm-4 p-0 m-0 my-4 text-center">
+                                <div class="w-75 mx-auto text-center">
+                                    <img src="assets/images/tournament_standing_card_pic.png" class="w-100 img-fluid" alt="Responsive image">
                                 </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label custom_label">Your Message:</label>
-                                    <textarea class="form-control custom_input" id="message" rows="3" placeholder="Enter your message"></textarea>
-                                </div>
-                                <div class="my-3 text-center">
-                                    <button type="submit" class="btn btn-primary custom_btn">Submit</button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    <!-- Contact Form end -->   
+        </div>
+    </section>
+    <!-- team_section end -->  
   
+    <!-- about_section start -->  
+    <!-- <section class="about_section w-100">
+        <div class="img_box w-100" >
+            <img src="assets/images/about_img.png" class="w-100 img-fluid" alt="Responsive image">
+        </div>
+    </section> -->
+    <!-- about_section end -->  
+
+     <!-- about_section start -->   
+     <section class="about_wrapper_section w-100">
+        <div class="container-fluid p-0">
+            <div class="row p-0 m-0 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-4 me-md-auto my-sm-3 text-center">
+                    <div class="img_box w-sm-100 mx-auto">
+                        <img src="assets/images/nmma_golden_logo_img.png" class="w-100 img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 ms-auto my-3 about_content_wrapper text-center">
+                    <h4>about</h4>
+                    <h1>National Martial Arts Alliance</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum, dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum, dolor sit amet, consectetur adipiscing elit. Etiam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- about_section end -->  
+  
+    <!-- dedication_section start -->  
+    <section class="dedication_section w-100">
+        <div class="img_box w-100">
+            <img src="assets/images/dedication_img.png" class="w-100 img-fluid" alt="Responsive image">
+        </div>
+    </section>
+    <!-- dedication_section end -->  
+
+
+       <!-- journey_wrapper start -->  
+       <section class="journey_wrapper_section w-100">
+            <div class="container-fluid p-0">
+                <div class="row p-0 m-0 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-sm-6 me-auto my-3">
+                        <div class="img_box">
+                            <img src="assets/images/martial_art_man_img.png" class="w-100 img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 ms-auto my-3 journey_content_wrapper text-center">
+                        <h1>Start Your Journey.</h1>
+                        <p>I started the National Martial Arts Alliance with the guiding principles of all I had learned from my seniors.</p>
+                        <p>Even though times have changed, I believe the principles we are founded on are timeless.</p>
+                        <p>I invite you to join us on this path, this legacy in the making.</p>
+                        <h4>Master Jody Horn</h4>
+                        <p>Founder</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- journey_wrapper end -->  
+
     <!-- Footer start --> 
     <section class="footer_section">
         <footer>
@@ -127,25 +196,32 @@
                             <img src="assets/images/logo.png" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 my-5 my-sm-0">
+                    <div class="col-12 col-sm-6 my-5 my-sm-0 px-0">
                         <div class="quick_links_container mt-sm-2 h-100 d-flex flex-column justify-content-between">
                             <ul class="quick_links list-unstyled mb-0 d-flex justify-content-around">
                                 <li>
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li>
                                     <a class="nav-link" href="pages/about.html">About</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="pages/upcommingEvents.html">Standings</a>
+                                    <a class="nav-link" href="#">Standings</a>
                                 </li>
-                                <li>
-                                    <a class="nav-link" href="pages/specialEvents.html">Events</a>
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Events
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="pages/specialEvents.html">Special Events</a></li>
+                                    <li><a class="dropdown-item" href="pages/nationalEvents.html">National Events</a></li>
+                                    <li><a class="dropdown-item" href="pages/upcommingEvents.html">Upcomming Events</a></li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a class="nav-link" href="#">Contact</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/contact.html">Contact</a>
                                 </li>
-                            </ul>
+                                </ul>
                             <p class="text-white text-center mb-0">© National Martial Arts Alliance</p>
                         </div>
                     </div>

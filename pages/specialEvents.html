@@ -104,41 +104,46 @@
 <header> 
     <!-- main menu start -->         
     <div class="container-fluid header px-0"> 
-          <nav class="navbar navbar-expand-md">
-            <!-- <div class="container-fluid mx-md-4"> -->
-            <div class="container-fluid mx-lg-4">
-                <!-- <a class="navbar-brand" href="#">National Martial Arts Alliance</a> -->
-                <div class="logo_container d-flex align-items-center">
-                    <div class="logo">
-                        <img src="../assets/images/logo.png" class="img-fluid" alt="logo-image">
-                        <!-- <img src="assets/images/logo.png" class="img-fluid mx-2" alt="logo-image"> -->
-                    </div>
-                    <a class="navbar-brand ms-2" href="#">National Martial Arts Alliance</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ms-auto mb-0">
-                    <li class="nav-item me-md-2">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item me-md-2">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item me-md-2">
-                        <a class="nav-link" href="./upcommingEvents.html">Standings</a>
-                    </li>
-                    <li class="nav-item me-md-2">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-md">
+        <div class="container-fluid mx-lg-4">
+            <div class="logo_container d-flex align-items-center">
+                <a class="navbar-brand m-0" href="../index.html">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" class="img-fluid" alt="logo-image">
+                </div></a>
+                <a class="navbar-brand ms-2" href="javascript:void(0);">National Martial Arts Alliance</a>
             </div>
-          </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-0">
+                <li class="nav-item me-md-2">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item me-md-2">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item me-md-2">
+                    <a class="nav-link" href="#">Standings</a>
+                </li>
+                <li class="nav-item me-md-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Events
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="specialEvents.html">Special Events</a></li>
+                        <li><a class="dropdown-item" href="./nationalEvents.html">National Events</a></li>
+                        <li><a class="dropdown-item" href="./upcommingEvents.html">Upcomming Events</a></li>
+                    </ul>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
     </div>
     <!-- main menu end -->
 </header> 
@@ -291,7 +296,7 @@
 
 
 <!-- Footer start --> 
-<section class="footer_section">
+    <section class="footer_section">
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -303,7 +308,7 @@
                         <img src="../assets/images/logo.png" class="img-fluid" alt="Responsive image">
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 my-5 my-sm-0">
+                <div class="col-12 col-sm-6 my-5 my-sm-0 px-0">
                     <div class="quick_links_container mt-sm-2 h-100 d-flex flex-column justify-content-between">
                         <ul class="quick_links list-unstyled mb-0 d-flex justify-content-around">
                             <li>
@@ -313,15 +318,22 @@
                                 <a class="nav-link" href="./about.html">About</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="./upcommingEvents.html">Standings</a>
+                                <a class="nav-link" href="#">Standings</a>
                             </li>
-                            <li>
-                                <a class="nav-link" href="#">Events</a>
+                            <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Events
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="specialEvents.html">Special Events</a></li>
+                                <li><a class="dropdown-item" href="./nationalEvents.html">National Events</a></li>
+                                <li><a class="dropdown-item" href="./upcommingEvents.html">Upcomming Events</a></li>
+                                </ul>
                             </li>
-                            <li>
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
-                        </ul>
+                            </ul>
                         <p class="text-white text-center mb-0">© National Martial Arts Alliance</p>
                     </div>
                 </div>
@@ -334,8 +346,9 @@
             </div>
         </div>
     </footer>
-</section>
+    </section>
 <!-- Footer end --> 
+
 
 
 <!-- bootstrap js -->
